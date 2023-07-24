@@ -1,0 +1,41 @@
+.user-list {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+  }
+  
+  .user-card {
+    display: grid;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user-info {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .header{
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+  .button{
+    font-weight: bold;
+    font-size: 14px;
+    background-color: whitesmoke;
+    padding: 10px 8px;
+    margin: 10px;
+    border-radius: 4px;
+  }
