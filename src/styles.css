@@ -2,6 +2,10 @@
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
+    margin: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
   }
   
   .user-card {
@@ -15,14 +19,14 @@
   }
   
   .user-avatar {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
   }
   
   .user-info {
-    margin-top: 10px;
+    margin-top: 8px;
     font-weight: bold;
   }
   
